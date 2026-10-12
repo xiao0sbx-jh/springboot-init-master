@@ -13,7 +13,8 @@ import me.chanjar.weixin.common.bean.WxOAuth2UserInfo;
 /**
  * 用户服务
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 public interface UserService extends IService<User> {

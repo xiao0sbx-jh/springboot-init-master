@@ -10,7 +10,8 @@ import org.springframework.context.annotation.Configuration;
 /**
  * MyBatis Plus 配置
  *
- * @author https://github.com/lixiaoling
+ * @author https://github.com/xiao0sbx-jh
+
  */
 @Configuration
 @MapperScan("com.xiaoling.niumianshi.mapper")

@@ -5,7 +5,8 @@ import com.xiaoling.niumianshi.common.ErrorCode;
 /**
  * 自定义异常类
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 public class BusinessException extends RuntimeException {

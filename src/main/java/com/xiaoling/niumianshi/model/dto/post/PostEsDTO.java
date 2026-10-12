@@ -18,7 +18,8 @@ import java.util.List;
 /**
  * 帖子 ES 包装类
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  **/
 // todo 取消注释开启 ES（须先配置 ES）

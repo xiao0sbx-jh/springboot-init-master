@@ -49,7 +49,8 @@ import org.springframework.stereotype.Service;
 /**
  * 帖子服务实现
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 @Service

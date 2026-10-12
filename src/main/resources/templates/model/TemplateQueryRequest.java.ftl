@@ -10,7 +10,8 @@ import java.util.List;
 /**
  * 查询${dataName}请求
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://www.code-nav.cn">学习圈</a>
  */
 @EqualsAndHashCode(callSuper = true)

@@ -3,7 +3,8 @@ package com.xiaoling.niumianshi.wxmp;
 /**
  * 微信公众号相关常量
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  **/
 public class WxMpConstant {

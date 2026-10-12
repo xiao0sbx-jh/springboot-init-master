@@ -9,7 +9,8 @@ import lombok.EqualsAndHashCode;
 /**
  * 查询请求
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 @EqualsAndHashCode(callSuper = true)

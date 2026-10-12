@@ -3,7 +3,8 @@ package com.xiaoling.niumianshi.constant;
 /**
  * 文件常量
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 public interface FileConstant {

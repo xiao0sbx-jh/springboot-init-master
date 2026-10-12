@@ -11,7 +11,8 @@ import lombok.Data;
 /**
  * 帖子点赞
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 @TableName(value = "post_thumb")

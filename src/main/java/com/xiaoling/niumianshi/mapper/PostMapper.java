@@ -8,7 +8,8 @@ import java.util.List;
 /**
  * 帖子数据库操作
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 public interface PostMapper extends BaseMapper<Post> {

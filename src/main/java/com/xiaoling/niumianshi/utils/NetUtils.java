@@ -6,7 +6,8 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 网络工具类
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 public class NetUtils {

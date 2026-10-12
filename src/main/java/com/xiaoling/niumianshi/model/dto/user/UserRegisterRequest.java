@@ -6,7 +6,8 @@ import lombok.Data;
 /**
  * 用户注册请求体
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 @Data

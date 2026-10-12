@@ -1,7 +1,8 @@
 package com.xiaoling.niumianshi.service;
 
-import com.xiaoling.niumianshi.model.entity.User;
 import javax.annotation.Resource;
+
+import com.xiaoling.niumianshi.model.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -10,7 +11,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 /**
  * 帖子点赞服务测试
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 @SpringBootTest

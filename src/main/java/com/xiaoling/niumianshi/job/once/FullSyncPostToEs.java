@@ -14,7 +14,8 @@ import org.springframework.boot.CommandLineRunner;
 /**
  * 全量同步帖子到 es
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 // todo 取消注释开启任务

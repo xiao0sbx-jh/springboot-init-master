@@ -6,7 +6,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 /**
  * 主类测试
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 @SpringBootTest

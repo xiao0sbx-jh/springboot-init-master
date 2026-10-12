@@ -8,7 +8,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 /**
  * 用户服务测试
  *
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 @SpringBootTest

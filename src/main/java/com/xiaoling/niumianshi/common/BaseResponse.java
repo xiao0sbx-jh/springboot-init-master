@@ -7,7 +7,8 @@ import lombok.Data;
  * 通用返回类
  *
  * @param <T>
- * @author <a href="https://github.com/lixiaoling">xiaoling</a>
+ * @author <a href="https://github.com/xiao0sbx-jh
+">xiaoling</a>
  * @from <a href="https://xiaoling."></a>
  */
 @Data

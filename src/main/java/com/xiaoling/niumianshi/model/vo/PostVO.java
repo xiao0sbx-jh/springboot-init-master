@@ -13,7 +13,7 @@ import org.springframework.beans.BeanUtils;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://xiaoling."></a>
+ * 
  */
 @Data
 public class PostVO implements Serializable {

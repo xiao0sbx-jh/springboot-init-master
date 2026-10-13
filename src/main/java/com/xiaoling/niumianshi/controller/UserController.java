@@ -21,7 +21,9 @@ import com.xiaoling.niumianshi.model.vo.LoginUserVO;
 import com.xiaoling.niumianshi.model.vo.UserVO;
 import com.xiaoling.niumianshi.service.UserService;
 
+import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -47,7 +49,7 @@ import static com.xiaoling.niumianshi.service.impl.UserServiceImpl.SALT;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://xiaoling."></a>
+ * 
  */
 @RestController
 @RequestMapping("/user")
@@ -318,4 +320,26 @@ public class UserController {
         ThrowUtils.throwIf(!result, ErrorCode.OPERATION_ERROR);
         return ResultUtils.success(true);
     }
+
+
+    /**
+     *
+     * 添加用户签到信息
+     * @param request
+     * @return
+     */
+    @PostMapping("/add/sign_in")
+    public BaseResponse<Boolean> addUserSignIn(HttpServletRequest request) {
+        User loginUser = userService.getLoginUser(request);
+        boolean result = userService.addUserSigIn(loginUser.getId());
+        return ResultUtils.success(result);
+    }
+
+    @GetMapping("/get/sign_in")
+    public BaseResponse<List<Integer>> getUserSignInRecord(Integer year, HttpServletRequest request) {
+        User loginUser = userService.getLoginUser(request);
+        List<Integer> userSignInRecord = userService.getUserSignInRecord(loginUser.getId(), year);
+        return ResultUtils.success(userSignInRecord);
+    }
+
 }

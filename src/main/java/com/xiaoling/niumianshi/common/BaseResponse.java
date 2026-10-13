@@ -9,7 +9,7 @@ import lombok.Data;
  * @param <T>
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://xiaoling."></a>
+ * 
  */
 @Data
 public class BaseResponse<T> implements Serializable {

@@ -13,7 +13,7 @@ import com.xiaoling.niumianshi.model.entity.User;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://xiaoling."></a>
+ * 
  */
 public interface PostFavourService extends IService<PostFavour> {
 

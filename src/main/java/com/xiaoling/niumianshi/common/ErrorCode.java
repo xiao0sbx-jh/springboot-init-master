@@ -5,7 +5,7 @@ package com.xiaoling.niumianshi.common;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://xiaoling."></a>
+ * 
  */
 public enum ErrorCode {
 

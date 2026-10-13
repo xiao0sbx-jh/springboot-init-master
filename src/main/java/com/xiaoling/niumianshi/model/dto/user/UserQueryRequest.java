@@ -10,7 +10,7 @@ import lombok.EqualsAndHashCode;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://xiaoling."></a>
+ * 
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

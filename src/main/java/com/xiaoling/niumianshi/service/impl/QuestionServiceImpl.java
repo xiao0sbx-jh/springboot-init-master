@@ -40,7 +40,7 @@ import java.util.stream.Collectors;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://www.code-nav.cn">学习圈</a>
+ 
  */
 @Service
 @Slf4j
@@ -49,9 +49,10 @@ public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question> i
     @Resource
     private UserService userService;
 
-
     @Resource
     private QuestionBankQuestionService questionBankQuestionService;
+
+
 
     /**
      * 校验数据

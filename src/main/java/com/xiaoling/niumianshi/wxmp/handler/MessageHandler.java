@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://xiaoling."></a>
+ * 
  **/
 @Component
 public class MessageHandler implements WxMpMessageHandler {

@@ -14,7 +14,7 @@ import java.util.Date;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://www.code-nav.cn">学习圈</a>
+ 
  */
 @Data
 public class QuestionBankVO implements Serializable {

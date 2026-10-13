@@ -9,7 +9,7 @@ import com.xiaoling.niumianshi.model.entity.User;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://xiaoling."></a>
+ * 
  */
 public interface PostThumbService extends IService<PostThumb> {
 

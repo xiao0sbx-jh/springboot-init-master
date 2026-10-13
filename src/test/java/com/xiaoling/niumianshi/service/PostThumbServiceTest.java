@@ -13,7 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://xiaoling."></a>
+ * 
  */
 @SpringBootTest
 class PostThumbServiceTest {

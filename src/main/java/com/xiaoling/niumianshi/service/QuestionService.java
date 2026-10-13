@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://www.code-nav.cn">学习圈</a>
+ 
  */
 public interface QuestionService extends IService<Question> {
 

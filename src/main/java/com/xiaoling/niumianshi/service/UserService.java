@@ -6,6 +6,7 @@ import com.xiaoling.niumianshi.model.dto.user.UserQueryRequest;
 import com.xiaoling.niumianshi.model.entity.User;
 import com.xiaoling.niumianshi.model.vo.LoginUserVO;
 import com.xiaoling.niumianshi.model.vo.UserVO;
+
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import me.chanjar.weixin.common.bean.WxOAuth2UserInfo;
@@ -15,7 +16,7 @@ import me.chanjar.weixin.common.bean.WxOAuth2UserInfo;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://xiaoling."></a>
+ * 
  */
 public interface UserService extends IService<User> {
 
@@ -119,4 +120,19 @@ public interface UserService extends IService<User> {
      */
     QueryWrapper<User> getQueryWrapper(UserQueryRequest userQueryRequest);
 
+    /**
+     * 添加用户签到记录
+     * @param userId
+     * @return 当前用户是否签到成功
+     */
+    boolean addUserSigIn(long userId);
+
+    /**
+     * 获取用户某个年份签到记录
+     *
+     * @param userId
+     * @param year
+     * @return
+     */
+    List<Integer> getUserSignInRecord(long userId, Integer year);
 }

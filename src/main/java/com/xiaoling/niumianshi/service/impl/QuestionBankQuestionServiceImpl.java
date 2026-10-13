@@ -25,6 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -40,7 +41,7 @@ import java.util.stream.Collectors;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://www.code-nav.cn">学习圈</a>
+ 
  */
 @Service
 @Slf4j
@@ -52,9 +53,9 @@ public class QuestionBankQuestionServiceImpl extends ServiceImpl<QuestionBankQue
     @Resource
     private QuestionBankService questionBankService;
 
-    @Resource
-    private QuestionBankService questionBankQuestionService;
+
     @Autowired
+    @Lazy
     private QuestionService questionService;
 
     /**
@@ -74,7 +75,7 @@ public class QuestionBankQuestionServiceImpl extends ServiceImpl<QuestionBankQue
         }
         Long questionBankId = questionBankQuestion.getQuestionBankId();
         if(questionBankId!=null){
-            QuestionBank questionBank = questionBankQuestionService.getById(questionBankId);
+            QuestionBank questionBank = questionBankService.getById(questionBankId);
             ThrowUtils.throwIf(questionBank==null,ErrorCode.NOT_FOUND_ERROR,"题库不存在");
         }
 

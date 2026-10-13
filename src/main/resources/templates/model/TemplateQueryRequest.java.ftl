@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://www.code-nav.cn">学习圈</a>
+
  */
 @EqualsAndHashCode(callSuper = true)
 @Data

@@ -14,7 +14,7 @@ import lombok.Data;
  *
  * @author <a href="https://github.com/xiao0sbx-jh
 ">xiaoling</a>
- * @from <a href="https://xiaoling."></a>
+ * 
  */
 @TableName(value = "post")
 @Data

@@ -2,20 +2,16 @@ package com.xiaoling.niumianshi.job.once;
 
 import com.xiaoling.niumianshi.esdao.QuestionEsDao;
 import com.xiaoling.niumianshi.model.dto.Question.QuestionEsDTO;
-import com.xiaoling.niumianshi.model.dto.post.PostEsDTO;
-import com.xiaoling.niumianshi.model.entity.Post;
 import com.xiaoling.niumianshi.model.entity.Question;
-import com.xiaoling.niumianshi.service.PostService;
+
 import java.util.List;
 import java.util.stream.Collectors;
 import javax.annotation.Resource;
 
-import com.xiaoling.niumianshi.service.QuestionBankService;
 import com.xiaoling.niumianshi.service.QuestionService;
 import lombok.extern.slf4j.Slf4j;
 import cn.hutool.core.collection.CollUtil;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 
 /**
  * 全量同步题目到 es

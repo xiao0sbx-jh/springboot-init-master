@@ -24,8 +24,8 @@ import javax.servlet.http.HttpServletRequest;
 ">xiaoling</a>
  * 
  */
-@Aspect
-@Component
+//@Aspect
+//@Component
 public class AuthInterceptor {
 
     @Resource
